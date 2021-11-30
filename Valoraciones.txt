@@ -1,0 +1,12 @@
+Integrante 1 (Alejandro Villanueva):
+	La experiencia al realizar el repositorio al GitHub ha sido fácil, al igual que asociar al resto de compañeros.
+	A la hora de la subida de archivos se ha complicado porque daba un error "Fatal Merge..." 
+para hacer git pull del repositorio. La solución fue hacer el git pull origin master justo después del git remote
+porque como hiciera antes un git add, daba error de merge.
+
+Integrante 2 (Javier Sánchez):
+	Al principio ha costado por lo mismo que el integrante 1, por no saber bien en qué momento hacer el git pull
+por lo demás todo bien.
+
+Integrante 3 (José Perea):
+	Igual que el resto de integrantes.
