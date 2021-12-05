@@ -1,0 +1,25 @@
+El primer paso para llevar a cabo la instalación es crear nuestra base de datos en el hosting de CDMON.
+Para ello:
+
+	1º.- Accedemos al apartado MySQL de CDMON
+	2º.- Creamos una nueva base de datos con el nombre que nos indica el enunciado (alimentos32021)
+	3º.- Proporcionamos las credenciales de acceso a el compañero que se encarga de modificar el archivo de configuración de la bbdd config.php
+
+Ahora pasamos a subir nuestro archivo Model.php, siguiendo estos pasos:
+	1º.- Nos descargamos el archivo
+	2º.- Abrimos un terminal en la carpeta donde lo hemos guardado
+	3º.- Hacemos git init
+	4º.- Sincronizamos con GitHub con git remote add origin urlgithub
+	5º.- Hacemos nuit pull origin master para traernos los archivos que estuvieran ya subidos
+	6º.- git add app/Model.php y git add instalacion.txt, seguidamente git commit
+	7º.- Subimos el proyecto junto con e archivo Model.php con git push origin master  
+
+A continuación, esperamos a que el resto de compañeros suban sus archivos. Cuando ya esté el proyecto entero subido, pasamos a conectarnos por ssh a CDMON para descargar el proyecto en el posting y desplegarlo:
+	1º.- Vamos al apartado del servicio ssh y sftp de CDMON y activamos ssh
+	2º.- Nos conectamos con ssh a CDMON usando el usuario de acceso con la siguiente url: usuario@ssh.minombrededominio.mialias.net
+	3º.- Nos movemos al directorio de trabajo de la aplicación que previamente hemos creado (pej:web/practica3)
+	4º.- Hacemos git init
+	5º.- Sincronizamos con nuestra cuenta de GitHub con git remote add origin urlgithub
+	4º.- Hacemos git pull origin master para traernos el proyecto
+
+Una vez hecho esto, nuestro proyecto ya estará desplegado
