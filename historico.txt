@@ -1,0 +1,27 @@
+Práctica 3. Programando y desplegando en grupo.
+
+Despligue de un proyecto ya programado, basado en el patrón de diseño modelo vista controlador (MVC).
+
+INTEGRANTES:
+	1. Alejandro Villanueva
+	2. Javier Sánchez
+	3. José Manuel Perea
+
+Tareas realizadas por el integrante 1:
+-Creación del repositorio GRUPOXDAW21 en GITHUB.
+-Dar permisos a los otros dos integrantes, cada uno con una cuenta de GITHUB propia, para poder realizar aportaciones al repositorio.
+-Subida de los archivos de la vista (carpeta /app/templates) y los de Fron-end (web/css + web/js + web/images).
+-Realizacion y subida a GITHUB del fichero de texto 'valoraciones.txt' con las valoraciones de la experiencia del resto de integrantes.
+
+Tareas realizadas por el integrante 2:
+-Creacion de la base de datos en su CDMON denominada alimentosX2021 e inserción de elementos a dicha dabe de datos.
+-Despliegue del proyecto en la carpeta especifica de su CDMON mediante SSH + comandos GIT.
+-Realizacion y subida a GITHUB del fichero de texto 'instalacion.txt' donde indica los pasos a seguir durante su tarea.
+
+Tareas realizadas por el integrante 3:
+-Subida de los archivos de controlador frontal y archivo con la clase controlador (web/index.php + app/Controller.php).
+-Modificacion del archivo app/Config.php indicando los datos necesarios para la conexion con la base de datos, un vez modificado, fue subido al repositorio.
+-Realizacion del fichero de texto 'historico.txt' donde se indican las tareas realizados por los tres integrantes, ademas del enlace o URL del hosting desplegado.
+
+URL: http://javiersanchez.es.mialias.net/practica3/web/index.php
+CONTRASEÑA: 8W0B448L
